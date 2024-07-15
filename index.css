@@ -1,0 +1,153 @@
+.body{
+background-image: url(images/cf86775e-4bcd-4748-9598-8f30b1a9fbc1.jpeg);    
+
+    background-repeat: no-repeat;
+    width: 100vw;
+    height:  100vh;
+    background-position: center;
+    background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.weather-card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 20px;
+width: 350px;
+height: 500px;
+background-color: rgba(6, 6, 6, 0.762);
+/* backdrop-filter: blur(3px); */
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+.search{
+    padding:0 20px;
+    padding-right: 0;
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.search-input{
+    width: 70%;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    padding: 10px 30px;
+ background-color: #fffffff4;
+}
+.fa-magnifying-glass{
+    font-size: 30px;
+    color: #fff;
+  padding-right: 20px;
+  cursor: pointer;
+}
+/* icon style */
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+   
+}
+.icon-control{
+    width: 300px;
+    display: flex;
+    margin-top: -10px;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+   
+    width: 60%;
+    margin: auto;
+  
+}
+.city-name{
+    
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+}
+.temp{
+   
+    color: #fff;
+    font-size: 30px;
+}
+.sign{
+    color: #fff;
+    font-size: 23px;
+}
+/* last sec */
+.last-sec{
+    width: 100%;
+    padding: 0 13px;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.last-sec p{
+margin: 0;
+}
+.small-icon__control{
+    width: 40px;
+}
+.small-icon__control img{
+    width: 100%;
+}
+.info-cont{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.info-name{
+    font-size: 12px;
+    color: #fff;
+}
+.info-degree{
+    font-size: 18px;
+    color: #fff;
+}
+.degree-control{
+   
+    color: #fff;
+}
+.not-found{
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.icon-err{
+    width: 300px;
+    display: flex;
+    margin-top: -10px;
+    justify-content: center;
+    align-items: center;
+}
+.img-error{
+   
+    width: 60%;
+    margin: auto;
+  
+}
+.error{
+    
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+}
+/* 
+.last-sec , .icon-container{
+    visibility: hidden;
+} */
